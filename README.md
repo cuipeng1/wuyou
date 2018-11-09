@@ -1,1 +1,1 @@
-### 地址链接：https://cuipeng1.github.io/wuyou/
+### 地址链接：https://cuipeng1.github.io/wuyou/inedx.html
