@@ -6,7 +6,8 @@ $(function(){
     //   子页面--关于我们地图切换
     $('.address li').click(function(){
         var i = $(this).index()
-        var arrimg = ['img/about/map.jpg','img/about/map2.jpg','img/about/map3.jpg','img/about/map4.jpg','img/about/map5.jpg']
+        var arrimg = ['img/about/map3.jpg','img/about/map.jpg'];
+        var address = ['合肥市瑶海区长江东大街277号','上海市普陀区柳园路556号'];
         $('.map').css({
             'background':'url('+ arrimg[i] +')',
         })
@@ -17,6 +18,7 @@ $(function(){
             'border':'1px solid  #cfcfcf',
             'color':'#cdcdcd'
         })
+        $('.about-address').html(address[i])
     })
     var mySwiper = new Swiper ('.swiper-container', {
         // 轮播图的方向，也可以是vertical方向
@@ -26,7 +28,7 @@ $(function(){
         loop: true,
 
         // 自动播放时间
-        autoplay:2000,
+        autoplay:5000,
 
         // 播放的速度
         speed:1000,
